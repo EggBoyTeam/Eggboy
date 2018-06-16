@@ -1,4 +1,4 @@
-﻿Log file open, 06/13/18 17:22:07
+﻿Log file open, 06/15/18 08:48:54
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,16 +7,14 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Eggboy
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(2009691887) SRandInit(2009691887).
+LogInit: Display: RandInit(899715545) SRandInit(899715545).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
-LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.309364
+LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.424905
 LogD3D11RHI: Aftermath initialized
-LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/HoudiniEngine/Binaries/Win64/UE4Editor-HoudiniEngineRuntime.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/HoudiniEngine/Binaries/Win64/UE4Editor-HoudiniEngineEditor.dll (API version 3944462).
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -157,7 +155,6 @@ LogPluginManager: Mounting plugin CableComponent
 LogPluginManager: Mounting plugin CustomMeshComponent
 LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
 LogPluginManager: Mounting plugin GoogleCloudMessaging
-LogPluginManager: Mounting plugin HoudiniEngine
 LogPluginManager: Mounting plugin ImmediatePhysics
 LogPluginManager: Mounting plugin IOSDeviceProfileSelector
 LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
@@ -171,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.953s to configure plugins.
+LogStreaming: Display: Took  3.714s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -191,8 +188,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am LAPTOP-6D945418 (10.0.0.86:0)
-LogHMD: Failed initializing OVRPlugin 1.21.0
+LogInit: WinSock: I am DESKTOP-BHO469L (192.168.1.2:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -221,451 +217,438 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  /Game/Norman/Maps/NormanDemo -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
-LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.002s to delete old logs.
+LogStreaming: Display: Took  0.005s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.06.13-21.22.09:864][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.13-21.22.09:864][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.06.13-21.22.09:868][  0]LogInit: Computer: LAPTOP-6D945418
-[2018.06.13-21.22.09:868][  0]LogInit: User: Kodystonedev
-[2018.06.13-21.22.09:868][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.06.13-21.22.09:868][  0]LogInit: High frequency timer resolution =2.531251 MHz
-[2018.06.13-21.22.09:869][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
-[2018.06.13-21.22.09:869][  0]LogMemory: Platform Memory Stats for Windows
-[2018.06.13-21.22.09:869][  0]LogMemory: Process Physical Memory: 279.17 MB used, 279.17 MB peak
-[2018.06.13-21.22.09:869][  0]LogMemory: Process Virtual Memory: 269.23 MB used, 269.23 MB peak
-[2018.06.13-21.22.09:869][  0]LogMemory: Physical Memory: 6079.23 MB used,  6098.55 MB free, 12177.78 MB total
-[2018.06.13-21.22.09:869][  0]LogMemory: Virtual Memory: 4838.93 MB used,  6098.55 MB free, 134217728.00 MB total
-[2018.06.13-21.22.09:896][  0]LogInit: Using OS detected language (en-US).
-[2018.06.13-21.22.09:896][  0]LogInit: Using OS detected locale (en-US).
-[2018.06.13-21.22.09:896][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2018.06.13-21.22.09:896][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
-[2018.06.13-21.22.10:560][  0]LogStreaming: Display: Took  0.665s to EndInitTextLocalization.
-[2018.06.13-21.22.10:586][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.06.13-21.22.10:587][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.06.13-21.22.10:606][  0]LogD3D11RHI: D3D11 adapters:
-[2018.06.13-21.22.10:656][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 965M' (Feature Level 11_0)
-[2018.06.13-21.22.10:656][  0]LogD3D11RHI:       4062/0/6088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.06.13-21.22.10:664][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2018.06.13-21.22.10:665][  0]LogD3D11RHI:       128/0/6088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.06.13-21.22.10:666][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.06.13-21.22.10:666][  0]LogD3D11RHI:       0/0/6088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.06.13-21.22.10:666][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.06.13-21.22.10:690][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.06.13-21.22.10:690][  0]LogD3D11RHI:     GPU DeviceId: 0x1427 (for the marketing name, search the web for "GPU Device Id")
-[2018.06.13-21.22.10:690][  0]LogWindows: EnumDisplayDevices:
-[2018.06.13-21.22.10:691][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2018.06.13-21.22.10:691][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.06.13-21.22.10:691][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.06.13-21.22.10:691][  0]LogWindows:    3. 'NVIDIA GeForce GTX 965M' (P:0 D:0)
-[2018.06.13-21.22.10:691][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.06.13-21.22.10:691][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 965M
-[2018.06.13-21.22.10:691][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.06.13-21.22.10:691][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.06.13-21.22.10:691][  0]LogRHI: Texture pool is 2843 MB (70% of 4062 MB)
-[2018.06.13-21.22.10:729][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.13-21.22.10:729][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.13-21.22.10:729][  0]LogD3D11RHI: Async texture creation enabled
-[2018.06.13-21.22.10:770][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.06.13-21.22.10:773][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Unreal Projects/Eggboy/Intermediate/Shaders/WorkingDirectory/17056/).
-[2018.06.13-21.22.10:773][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kody stone.dev/AppData/Local/Temp/UnrealShaderWorkingDir/3AEF9BA94859CEFA78BC99A3C5D45BBE/'.
-[2018.06.13-21.22.11:008][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.06.13-21.22.11:023][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.06.13-21.22.11:040][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.06.13-21.22.11:055][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.06.13-21.22.11:055][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.06.13-21.22.11:152][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.06.13-21.22.11:152][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.06.13-21.22.11:152][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.06.13-21.22.11:982][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.06.13-21.22.12:067][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/Kody stone.dev/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.13-21.22.12:067][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Kody stone.dev/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.06.13-21.22.12:067][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal Projects/Eggboy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.06.13-21.22.12:067][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.06.13-21.22.12:067][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal Projects/Eggboy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.06.13-21.22.12:067][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.06.13-21.22.12:088][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.06.13-21.22.12:100][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kody stone.dev/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.06.13-21.22.12:100][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.06.13-21.22.12:100][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.06.13-21.22.12:116][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.06.13-21.22.12:117][  0]LogSlate: Using Freetype 2.6.0
-[2018.06.13-21.22.12:117][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.13-21.22.12:117][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.13-21.22.12:218][  0]LogAssetRegistry: FAssetRegistry took 0.0042 seconds to start up
-[2018.06.13-21.22.12:490][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.015375 seconds
-[2018.06.13-21.22.12:613][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.13-21.22.12:780][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.06.13-21.22.12:782][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.06.13-21.22.12:782][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.06.13-21.22.12:782][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.06.13-21.22.12:782][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.06.13-21.22.12:782][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.06.13-21.22.12:814][  0]LogNetVersion: Eggboy , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 227181994)
-[2018.06.13-21.22.13:572][  0]LogMoviePlayer: Initializing movie player
-[2018.06.13-21.22.13:886][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.06.13-21.22.13:916][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.06.13-21.22.14:130][  0]SourceControl: Source control is disabled
-[2018.06.13-21.22.14:130][  0]SourceControl: Source control is disabled
-[2018.06.13-21.22.14:145][  0]SourceControl: Source control is disabled
-[2018.06.13-21.22.14:480][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.06.13-21.22.14:612][  0]LogHoudiniEngine: Starting the Houdini Engine module.
-[2018.06.13-21.22.14:613][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path D:\Program Files\Houdini/bin
-[2018.06.13-21.22.14:614][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.14:616][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.14:624][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/HoudiniEngine/Content/houdini_bgeo_import.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.15:384][  0]LogHoudiniEngine: Successfully intialized the Houdini Engine API module.
-[2018.06.13-21.22.15:430][  0]LogOcInput: OculusInput pre-init called
-[2018.06.13-21.22.15:467][  0]LogUObjectArray: 40349 objects as part of root set at end of initial load.
-[2018.06.13-21.22.15:467][  0]LogUObjectAllocator: 8430440 out of 0 bytes used by permanent object pool.
-[2018.06.13-21.22.15:467][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.06.13-21.22.15:528][  0]LogEngine: Initializing Engine...
-[2018.06.13-21.22.15:558][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2018.06.13-21.22.15:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.13-21.22.15:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.13-21.22.15:807][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.13-21.22.15:828][  0]LogInit: FAudioDevice initialized.
-[2018.06.13-21.22.15:861][  0]LogInit: Texture streaming: Enabled
-[2018.06.13-21.22.16:000][  0]LogInit: Display: Game Engine Initialized.
-[2018.06.13-21.22.16:000][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.06.13-21.22.16:000][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.13-21.22.16:000][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.13-21.22.16:093][  0]LogInit: Display: Starting Game.
-[2018.06.13-21.22.16:093][  0]LogNet: Browse: /Game/Norman/Maps/NormanDemo?Name=Player
-[2018.06.13-21.22.16:093][  0]LogLoad: LoadMap: /Game/Norman/Maps/NormanDemo?Name=Player
-[2018.06.13-21.22.16:112][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f45c5abd80, Size=40, Default__NormanDemo_C Function /Game/Norman/Maps/NormanDemo.NormanDemo_C:ExecuteUbergraph_NormanDemo
-[2018.06.13-21.22.16:180][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Blueprints/World/Collectable.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:181][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f45c66ca40, Size=288, Default__Collectable_C Function /Game/Norman/Blueprints/World/Collectable.Collectable_C:ExecuteUbergraph_Collectable
-[2018.06.13-21.22.16:182][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Blueprints/Interfaces/INormanAnimations.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:183][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Blueprints/Enums/NormanStates.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:188][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Blueprints/Libraries/NormanAnim_Lib.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:190][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Materials/World/Grass_M_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:197][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Blueprints/World/PushPull.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:201][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f45c65e480, Size=608, Default__PushPull_C Function /Game/Norman/Blueprints/World/PushPull.PushPull_C:ExecuteUbergraph_PushPull
-[2018.06.13-21.22.16:201][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Materials/World/Hidden_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:213][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Blueprints/World/WaterTrudge.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:214][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f45be78f40, Size=280, Default__WaterTrudge_C Function /Game/Norman/Blueprints/World/WaterTrudge.WaterTrudge_C:ExecuteUbergraph_WaterTrudge
-[2018.06.13-21.22.16:222][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Materials/World/Water_M_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:228][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Meshes/World/Grass_01_SM_LOD2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:229][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Meshes/World/plane.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:230][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Meshes/World/Spike.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:249][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f45c66ca40, Size=288
-[2018.06.13-21.22.16:249][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f44ef27600, Size=288, Default__Collectable_C Function /Engine/Transient.REINST_Collectable_C_4:ExecuteUbergraph_Collectable
-[2018.06.13-21.22.16:249][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f45c65e480, Size=608
-[2018.06.13-21.22.16:249][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f44ef32480, Size=608, Default__PushPull_C Function /Engine/Transient.REINST_PushPull_C_6:ExecuteUbergraph_PushPull
-[2018.06.13-21.22.16:250][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f45be78f40, Size=280
-[2018.06.13-21.22.16:250][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f44ef27240, Size=280, Default__WaterTrudge_C Function /Engine/Transient.REINST_WaterTrudge_C_7:ExecuteUbergraph_WaterTrudge
-[2018.06.13-21.22.16:288][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f44ef25d00, Size=304, Default__Collectable_C Function /Game/Norman/Blueprints/World/Collectable.Collectable_C:ExecuteUbergraph_Collectable
-[2018.06.13-21.22.16:290][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f44f9f3380, Size=624, Default__PushPull_C Function /Game/Norman/Blueprints/World/PushPull.PushPull_C:ExecuteUbergraph_PushPull
-[2018.06.13-21.22.16:291][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f44ef25a80, Size=296, Default__WaterTrudge_C Function /Game/Norman/Blueprints/World/WaterTrudge.WaterTrudge_C:ExecuteUbergraph_WaterTrudge
-[2018.06.13-21.22.16:296][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f45c5abd80, Size=40
-[2018.06.13-21.22.16:296][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f45c5abd80, Size=40, Default__NormanDemo_C Function /Engine/Transient.REINST_NormanDemo_C_15:ExecuteUbergraph_NormanDemo
-[2018.06.13-21.22.16:297][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f45c5aa318, Size=40, Default__NormanDemo_C Function /Game/Norman/Maps/NormanDemo.NormanDemo_C:ExecuteUbergraph_NormanDemo
-[2018.06.13-21.22.16:314][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Materials/World/GrassFoliage_M_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:332][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Materials/World/Water_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:342][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Materials/World/Color_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:362][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/World/water_nrm.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:363][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/World/water_h.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:366][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Materials/World/GrassFoliage_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:373][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/World/grass_mask.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:506][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.612345ms] /Game/EggboyRaw/Sitting.Sitting
-[2018.06.13-21.22.16:523][  0]LogClass: Warning: Enum '/Game/Norman/Blueprints/Enums/NormanStates.NormanStates' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.06.13-21.22.16:567][  0]LogAIModule: Creating AISystem for world NormanDemo
-[2018.06.13-21.22.16:574][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f44fbaa800, Size=768, Default__NormanCharacter_C Function /Game/Norman/Blueprints/Character/NormanCharacter.NormanCharacter_C:ExecuteUbergraph_NormanCharacter
-[2018.06.13-21.22.16:577][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Norman_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:617][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f44f2f8d40, Size=224, Default__Norman_AnimBP_C Function /Game/Norman/Animations/Character/Norman_AnimBP.Norman_AnimBP_C:ExecuteUbergraph_Norman_AnimBP
-[2018.06.13-21.22.16:629][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f44fa90600, Size=240, Default__Norman_AnimBP1_C Function /Game/Norman_AnimBP1.Norman_AnimBP1_C:ExecuteUbergraph_Norman_AnimBP1
-[2018.06.13-21.22.16:630][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Meshes/Accessories/norman_antenna_v1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:631][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Materials/Character/Norman_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:633][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Meshes/Accessories/norman_battery_v1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:634][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Weapons/Slingshot/Slingshot_AnimBlueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:635][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Meshes/Weapons/Slingshot/slingshot_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:639][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f44fe7ea70, Size=40, Default__Slingshot_AnimBlueprint_C Function /Game/Norman/Animations/Weapons/Slingshot/Slingshot_AnimBlueprint.Slingshot_AnimBlueprint_C:ExecuteUbergraph_Slingshot_AnimBlueprint
-[2018.06.13-21.22.16:639][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Meshes/Accessories/norman_zipper_v1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:641][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Weapons/Slingshot/slingshot_idle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:641][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Weapons/Slingshot/SlingshotShoot_Blendspace.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:679][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Weapons/Slingshot/slingshot_stretch.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:680][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Weapons/Slingshot/slingshot_shoot.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:681][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Meshes/Weapons/Slingshot/slingshot.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:681][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Materials/Weapons/Slingshot/Slingshot_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:746][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_carry.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:746][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_collect.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:747][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_dance.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:748][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_death.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:749][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_pickup.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:749][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_place.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:750][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_press.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:751][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_pull.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:751][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_push.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:754][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_put_away.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:755][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_spawn.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:756][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_talk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:757][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:758][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:758][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:759][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/Aim/NormanAim_BlendSpace.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:760][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/NormanIdleRun_Blendspace.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:760][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/NormanTrudge_Blendspace.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:761][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/Shoot/NormanShoot_Blendspace.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:783][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_idle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:784][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_walk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:784][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_run.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:786][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/norman_trudge.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:790][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/Aim/norman_aim_down_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:791][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/Aim/norman_aim_left_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:792][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/Aim/norman_aim_leftdown_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:792][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/Aim/norman_aim_leftup_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:793][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/Aim/norman_aim_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:794][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/Aim/norman_aim_right_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:795][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/Aim/norman_aim_rightdown_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:795][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/Aim/norman_aim_up_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:796][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/Aim/norman_aim_rightup_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:797][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/Shoot/norman_shooting_base.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:798][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/Shoot/norman_shooting_shoot.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:798][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Animations/Character/Blends/Shoot/norman_shooting_reload.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:800][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/Character/Faces/norman_blink_face.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:801][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/Character/Faces/norman_default_face.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:801][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/Character/Faces/norman_squint_face.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.16:847][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f44f2f8d40, Size=224
-[2018.06.13-21.22.16:847][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f4646939e0, Size=224, Default__Norman_AnimBP_C Function /Engine/Transient.REINST_Norman_AnimBP_C_0:ExecuteUbergraph_Norman_AnimBP
-[2018.06.13-21.22.16:849][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f44fa90600, Size=240
-[2018.06.13-21.22.16:849][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f46472ab00, Size=240, Default__Norman_AnimBP1_C Function /Engine/Transient.REINST_Norman_AnimBP1_C_1:ExecuteUbergraph_Norman_AnimBP1
-[2018.06.13-21.22.16:849][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f44fe7ea70, Size=40
-[2018.06.13-21.22.16:849][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f468c72728, Size=40, Default__Slingshot_AnimBlueprint_C Function /Engine/Transient.REINST_Slingshot_AnimBlueprint_C_2:ExecuteUbergraph_Slingshot_AnimBlueprint
-[2018.06.13-21.22.16:850][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f44fbaa800, Size=768
-[2018.06.13-21.22.16:850][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f468b9cd00, Size=768, Default__NormanCharacter_C Function /Engine/Transient.REINST_NormanCharacter_C_17:ExecuteUbergraph_NormanCharacter
-[2018.06.13-21.22.16:978][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f469822b00, Size=232, Default__Norman_AnimBP_C Function /Game/Norman/Animations/Character/Norman_AnimBP.Norman_AnimBP_C:ExecuteUbergraph_Norman_AnimBP
-[2018.06.13-21.22.16:985][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f4697c8800, Size=232, Default__Norman_AnimBP1_C Function /Game/Norman_AnimBP1.Norman_AnimBP1_C:ExecuteUbergraph_Norman_AnimBP1
-[2018.06.13-21.22.16:988][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f4693b3650, Size=40, Default__Slingshot_AnimBlueprint_C Function /Game/Norman/Animations/Weapons/Slingshot/Slingshot_AnimBlueprint.Slingshot_AnimBlueprint_C:ExecuteUbergraph_Slingshot_AnimBlueprint
-[2018.06.13-21.22.16:992][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f4697c1f00, Size=760, Default__NormanCharacter_C Function /Game/Norman/Blueprints/Character/NormanCharacter.NormanCharacter_C:ExecuteUbergraph_NormanCharacter
-[2018.06.13-21.22.16:998][  0]LogBlueprint: Warning: [Compiler Norman_AnimBP1] Node  Blendspace Player 'NormanAim_BlendSpace1'  uses potentially thread-unsafe call Get Aim Rot. Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
-[2018.06.13-21.22.16:998][  0]LogBlueprint: Warning: [Compiler Norman_AnimBP1] Node  Blendspace Player 'NormanShoot_Blendspace1'  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
-[2018.06.13-21.22.16:999][  0]LogBlueprint: Warning: [Compiler Norman_AnimBP] Node  Blendspace Player 'NormanAim_BlendSpace'  uses potentially thread-unsafe call Get Aim Rot. Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
-[2018.06.13-21.22.16:999][  0]LogBlueprint: Warning: [Compiler Norman_AnimBP] Node  Blendspace Player 'NormanShoot_Blendspace'  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
-[2018.06.13-21.22.17:002][  0]LogBlueprint: Warning: [Compiler Norman_AnimBP] [0010.05] Compile of Norman_AnimBP successful, but with 2 Warning(s) [in 189 ms] (/Game/Norman/Animations/Character/Norman_AnimBP.Norman_AnimBP)
-[2018.06.13-21.22.17:002][  0]LogBlueprint: Warning: [Compiler Norman_AnimBP1] [0010.05] Compile of Norman_AnimBP1 successful, but with 2 Warning(s) [in 189 ms] (/Game/Norman_AnimBP1.Norman_AnimBP1)
-[2018.06.13-21.22.17:010][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Meshes/Accessories/norman_antenna_v1_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.17:012][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/Character/rough.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.17:013][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/Character/albedo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.17:014][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/Character/emissive.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.17:015][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/Character/metal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.17:015][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/Character/normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.17:017][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/Character/NoiseFace.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.17:018][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/Weapons/Slingshot/slingshot_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.17:018][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/Weapons/Slingshot/slingshot_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.17:021][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/Weapons/Slingshot/slingshot_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.17:022][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Textures/Weapons/Slingshot/slingshot_albedo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.17:023][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Meshes/Weapons/Slingshot/slingshot_PhysicsAsset.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.17:025][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Meshes/Accessories/norman_zipper_v1_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.17:025][  0]LogLinker: Warning: Asset '../../../../../../Unreal Projects/Eggboy/Content/Norman/Meshes/Accessories/norman_battery_v1_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.06.13-21.22.17:044][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.272197ms] /Game/Norman/Meshes/Accessories/norman_antenna_v1.norman_antenna_v1
-[2018.06.13-21.22.17:058][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.255210ms] /Game/Norman/Meshes/Weapons/Slingshot/slingshot.slingshot
-[2018.06.13-21.22.17:060][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.173037ms] /Game/Norman/Meshes/Accessories/norman_zipper_v1.norman_zipper_v1
-[2018.06.13-21.22.17:062][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.204642ms] /Game/Norman/Meshes/Accessories/norman_battery_v1.norman_battery_v1
-[2018.06.13-21.22.17:082][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.06.13-21.22.17:094][  0]LogWorld: Bringing World /Game/Norman/Maps/NormanDemo.NormanDemo up for play (max tick rate 0) at 2018.06.13-17.22.17
-[2018.06.13-21.22.17:095][  0]LogWorld: Bringing up level for play took: 0.011812
-[2018.06.13-21.22.17:099][  0]LogLoad: Took 1.005630 seconds to LoadMap(/Game/Norman/Maps/NormanDemo)
-[2018.06.13-21.22.17:153][  0]LogLoad: (Engine Initialization) Total time: 10.20 seconds
-[2018.06.13-21.22.17:153][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.06.13-21.22.17:211][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2018.06.13-21.22.17:268][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.06.13-21.22.17:275][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.06.13-21.23.07:488][100]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:3102).
-[2018.06.13-21.23.18:385][773]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f45c5abd80, Size=40
-[2018.06.13-21.23.18:385][773]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f44ef27600, Size=288
-[2018.06.13-21.23.18:385][773]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f44ef32480, Size=608
-[2018.06.13-21.23.18:386][773]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f44ef27240, Size=280
-[2018.06.13-21.23.18:386][773]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f468b9cd00, Size=768
-[2018.06.13-21.23.18:386][773]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f4646939e0, Size=224
-[2018.06.13-21.23.18:386][773]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f46472ab00, Size=240
-[2018.06.13-21.23.18:386][773]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f468c72728, Size=40
-[2018.06.13-21.23.27:798][354]Closing by request
-[2018.06.13-21.23.27:798][354]LogWindows: FPlatformMisc::RequestExit(0)
-[2018.06.13-21.23.28:629][355]LogSlate: Window 'Eggboy (64-bit, PCD3D_SM5) ' being destroyed
-[2018.06.13-21.23.28:630][355]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.06.13-21.23.28:635][355]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.06.13-21.23.28:635][355]LogExit: Preparing to exit.
-[2018.06.13-21.23.28:636][355]LogMoviePlayer: Shutting down movie player
-[2018.06.13-21.23.29:025][355]LogExit: Game engine shut down
-[2018.06.13-21.23.29:033][355]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f44ef25d00, Size=304
-[2018.06.13-21.23.29:033][355]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f44f9f3380, Size=624
-[2018.06.13-21.23.29:033][355]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f44ef25a80, Size=296
-[2018.06.13-21.23.29:033][355]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f45c5aa318, Size=40
-[2018.06.13-21.23.29:034][355]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f469822b00, Size=232
-[2018.06.13-21.23.29:034][355]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f4697c8800, Size=232
-[2018.06.13-21.23.29:034][355]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f4693b3650, Size=40
-[2018.06.13-21.23.29:034][355]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f4697c1f00, Size=760
-[2018.06.13-21.23.29:105][355]LogExit: Object subsystem successfully closed.
-[2018.06.13-21.23.29:126][355]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.06.13-21.23.29:131][355]LogD3D11RHI: Shutdown
-[2018.06.13-21.23.29:131][355]LogD3D11RHI: CleanupD3DDevice
-[2018.06.13-21.23.29:133][355]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.06.13-21.23.29:145][355]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (334)
-[2018.06.13-21.23.29:145][355]LogModuleManager: Shutting down and abandoning module SequenceRecorder (332)
-[2018.06.13-21.23.29:145][355]LogModuleManager: Shutting down and abandoning module AutomationController (330)
-[2018.06.13-21.23.29:145][355]LogModuleManager: Shutting down and abandoning module AutomationWorker (328)
-[2018.06.13-21.23.29:145][355]LogModuleManager: Shutting down and abandoning module AIModule (326)
-[2018.06.13-21.23.29:145][355]LogModuleManager: Shutting down and abandoning module GameplayDebugger (325)
-[2018.06.13-21.23.29:145][355]LogModuleManager: Shutting down and abandoning module AITestSuite (323)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (320)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (318)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (316)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (314)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module CharacterAI (312)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module SessionServices (310)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (308)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (306)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module MovieScene (304)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module GeometryCache (302)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (301)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (298)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module PortalServices (296)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module PortalRpc (294)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module MessagingRpc (292)
-[2018.06.13-21.23.29:146][355]LogModuleManager: Shutting down and abandoning module ProfilerService (290)
-[2018.06.13-21.23.29:150][355]LogModuleManager: Shutting down and abandoning module TaskGraph (288)
-[2018.06.13-21.23.29:150][355]LogModuleManager: Shutting down and abandoning module SteamVRController (286)
-[2018.06.13-21.23.29:150][355]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (284)
-[2018.06.13-21.23.29:150][355]LogModuleManager: Shutting down and abandoning module OculusInput (282)
-[2018.06.13-21.23.29:150][355]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (280)
-[2018.06.13-21.23.29:150][355]LogModuleManager: Shutting down and abandoning module HoudiniEngineRuntime (278)
-[2018.06.13-21.23.29:150][355]LogHoudiniEngine: Shutting down the Houdini Engine module.
-[2018.06.13-21.23.29:152][355]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (276)
-[2018.06.13-21.23.29:152][355]LogModuleManager: Shutting down and abandoning module CableComponent (274)
-[2018.06.13-21.23.29:152][355]LogModuleManager: Shutting down and abandoning module AudioCapture (272)
-[2018.06.13-21.23.29:152][355]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (270)
-[2018.06.13-21.23.29:152][355]LogModuleManager: Shutting down and abandoning module AndroidPermission (268)
-[2018.06.13-21.23.29:152][355]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (264)
-[2018.06.13-21.23.29:152][355]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (262)
-[2018.06.13-21.23.29:152][355]LogModuleManager: Shutting down and abandoning module MediaCompositing (260)
-[2018.06.13-21.23.29:152][355]LogModuleManager: Shutting down and abandoning module LinearTimecode (258)
-[2018.06.13-21.23.29:152][355]LogModuleManager: Shutting down and abandoning module ImgMedia (256)
-[2018.06.13-21.23.29:154][355]LogModuleManager: Shutting down and abandoning module HTML5Networking (254)
-[2018.06.13-21.23.29:154][355]LogModuleManager: Shutting down and abandoning module DatasmithContent (252)
-[2018.06.13-21.23.29:154][355]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (250)
-[2018.06.13-21.23.29:154][355]LogModuleManager: Shutting down and abandoning module CryptoKeys (248)
-[2018.06.13-21.23.29:154][355]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (246)
-[2018.06.13-21.23.29:154][355]LogModuleManager: Shutting down and abandoning module HotReload (245)
-[2018.06.13-21.23.29:154][355]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (244)
-[2018.06.13-21.23.29:154][355]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (240)
-[2018.06.13-21.23.29:155][355]LogModuleManager: Shutting down and abandoning module UObjectPlugin (238)
-[2018.06.13-21.23.29:155][355]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (236)
-[2018.06.13-21.23.29:155][355]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (234)
-[2018.06.13-21.23.29:155][355]LogModuleManager: Shutting down and abandoning module SourceControl (233)
-[2018.06.13-21.23.29:155][355]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (230)
-[2018.06.13-21.23.29:155][355]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (228)
-[2018.06.13-21.23.29:155][355]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
-[2018.06.13-21.23.29:155][355]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
-[2018.06.13-21.23.29:155][355]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (222)
-[2018.06.13-21.23.29:155][355]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (220)
-[2018.06.13-21.23.29:155][355]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (218)
-[2018.06.13-21.23.29:155][355]LogModuleManager: Shutting down and abandoning module ActorSequence (216)
-[2018.06.13-21.23.29:155][355]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
-[2018.06.13-21.23.29:256][355]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
-[2018.06.13-21.23.29:933][355]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
-[2018.06.13-21.23.29:933][355]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
-[2018.06.13-21.23.29:933][355]LogModuleManager: Shutting down and abandoning module DataValidation (206)
-[2018.06.13-21.23.29:933][355]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (204)
-[2018.06.13-21.23.29:933][355]LogModuleManager: Shutting down and abandoning module TreeMap (203)
-[2018.06.13-21.23.29:933][355]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (200)
-[2018.06.13-21.23.29:933][355]LogModuleManager: Shutting down and abandoning module LiveLink (198)
-[2018.06.13-21.23.30:821][355]LogModuleManager: Shutting down and abandoning module Paper2D (196)
-[2018.06.13-21.23.30:821][355]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (194)
-[2018.06.13-21.23.30:821][355]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (192)
-[2018.06.13-21.23.30:821][355]LogModuleManager: Shutting down and abandoning module WmfMedia (190)
-[2018.06.13-21.23.30:822][355]LogModuleManager: Shutting down and abandoning module Media (189)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module PacketHandler (186)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (184)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (182)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module MediaAssets (180)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module Overlay (178)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module OverlayEditor (177)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module VREditor (174)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module StringTableEditor (172)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (170)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (168)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module FunctionalTesting (166)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (164)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (163)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module UMG (160)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module UMGEditor (159)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module Sequencer (158)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module MessageLog (155)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module SlateReflector (150)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module Slate (148)
-[2018.06.13-21.23.30:828][355]LogModuleManager: Shutting down and abandoning module EditorStyle (146)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module MRMesh (144)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module Messaging (142)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (140)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (138)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module XAudio2 (136)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module Networking (134)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module Core (132)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module LevelSequence (130)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module KismetCompiler (128)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module MeshUtilities (126)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (125)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (124)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (123)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (121)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (119)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module MaterialBaking (115)
-[2018.06.13-21.23.30:830][355]LogModuleManager: Shutting down and abandoning module DerivedDataCache (110)
-[2018.06.13-21.23.31:201][355]LogDerivedDataCache: Shutdown
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module XGEController (108)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module TargetPlatform (106)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (105)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (103)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (101)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (99)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (97)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (95)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (93)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (91)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (89)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (87)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module ImageWrapper (86)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (83)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (81)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (79)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (77)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (75)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (73)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (71)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (69)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.06.13-21.23.31:201][355]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.06.13-21.23.31:226][355]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.06.13-21.23.31:227][355]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.06.13-21.23.31:227][355]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.06.13-21.23.31:227][355]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.06.13-21.23.31:227][355]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.06.13-21.23.31:227][355]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.06.13-21.23.31:227][355]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.06.13-21.23.31:227][355]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.06.13-21.23.31:228][355]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.06.13-21.23.31:228][355]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.06.13-21.23.31:228][355]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.06.13-21.23.31:228][355]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.06.13-21.23.31:228][355]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.06.13-21.23.31:228][355]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.06.13-21.23.31:228][355]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.06.13-21.23.31:228][355]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.06.13-21.23.31:228][355]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.06.13-21.23.31:228][355]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.06.13-21.23.31:228][355]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.06.13-21.23.31:234][355]LogExit: Exiting.
-[2018.06.13-21.23.31:235][355]Log file closed, 06/13/18 17:23:31
+[2018.06.15-15.48.58:621][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.15-15.48.58:621][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.15-15.48.58:635][  0]LogInit: Computer: DESKTOP-BHO469L
+[2018.06.15-15.48.58:635][  0]LogInit: User: LAW
+[2018.06.15-15.48.58:635][  0]LogInit: CPU Page size=4096, Cores=3
+[2018.06.15-15.48.58:635][  0]LogInit: High frequency timer resolution =3.236978 MHz
+[2018.06.15-15.48.58:636][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.06.15-15.48.58:636][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.15-15.48.58:636][  0]LogMemory: Process Physical Memory: 273.50 MB used, 273.50 MB peak
+[2018.06.15-15.48.58:636][  0]LogMemory: Process Virtual Memory: 270.18 MB used, 270.18 MB peak
+[2018.06.15-15.48.58:636][  0]LogMemory: Physical Memory: 4951.28 MB used,  11430.27 MB free, 16381.55 MB total
+[2018.06.15-15.48.58:636][  0]LogMemory: Virtual Memory: 4788.77 MB used,  11430.27 MB free, 134217728.00 MB total
+[2018.06.15-15.48.58:693][  0]LogInit: Using OS detected language (en-US).
+[2018.06.15-15.48.58:694][  0]LogInit: Using OS detected locale (en-US).
+[2018.06.15-15.48.58:694][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2018.06.15-15.48.58:694][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2018.06.15-15.49.00:072][  0]LogStreaming: Display: Took  1.379s to EndInitTextLocalization.
+[2018.06.15-15.49.00:124][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.15-15.49.00:124][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.15-15.49.00:131][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.15-15.49.00:235][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 580' (Feature Level 11_0)
+[2018.06.15-15.49.00:235][  0]LogD3D11RHI:       1488/0/8190 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.06.15-15.49.00:239][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.15-15.49.00:239][  0]LogD3D11RHI:       0/0/8190 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.15-15.49.00:239][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.15-15.49.00:252][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.15-15.49.00:253][  0]LogD3D11RHI:     GPU DeviceId: 0x1080 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.15-15.49.00:253][  0]LogWindows: EnumDisplayDevices:
+[2018.06.15-15.49.00:253][  0]LogWindows:    0. 'NVIDIA GeForce GTX 580' (P:1 D:1)
+[2018.06.15-15.49.00:254][  0]LogWindows:    1. 'NVIDIA GeForce GTX 580' (P:0 D:0)
+[2018.06.15-15.49.00:254][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.15-15.49.00:254][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 580
+[2018.06.15-15.49.00:254][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.15-15.49.00:254][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.15-15.49.00:254][  0]LogRHI: Texture pool is 1041 MB (70% of 1488 MB)
+[2018.06.15-15.49.00:328][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.06.15-15.49.00:332][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.15-15.49.00:332][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.15-15.49.00:332][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.15-15.49.00:356][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.06.15-15.49.00:361][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/_Unreal/EggBoyDevelopment/Intermediate/Shaders/WorkingDirectory/11328/).
+[2018.06.15-15.49.00:361][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LAW/AppData/Local/Temp/UnrealShaderWorkingDir/DFAF51FA4CC3E3AA64EDD7B4D122C4E4/'.
+[2018.06.15-15.49.01:255][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.15-15.49.01:306][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.15-15.49.01:363][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.15-15.49.01:388][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.15-15.49.01:388][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.15-15.49.01:793][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.15-15.49.01:793][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.15-15.49.01:793][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.15-15.49.04:487][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.15-15.49.04:711][  0]LogDerivedDataCache: Loaded boot cache 0.22s 74MB C:/Users/LAW/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.15-15.49.04:712][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/LAW/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.15-15.49.04:712][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/_Unreal/EggBoyDevelopment/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.15-15.49.04:712][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.15-15.49.04:712][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/_Unreal/EggBoyDevelopment/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.15-15.49.04:712][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.15-15.49.04:757][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.15-15.49.04:771][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LAW/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.15-15.49.04:771][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.15-15.49.04:771][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.15-15.49.04:809][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.15-15.49.04:820][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.15-15.49.04:822][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.15-15.49.04:822][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.15-15.49.05:140][  0]LogAssetRegistry: FAssetRegistry took 0.0186 seconds to start up
+[2018.06.15-15.49.05:934][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.026392 seconds
+[2018.06.15-15.49.06:335][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.15-15.49.06:772][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.15-15.49.06:781][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.15-15.49.06:781][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.15-15.49.06:781][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.15-15.49.06:781][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.15-15.49.06:781][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.15-15.49.06:881][  0]LogNetVersion: Eggboy , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 227181994)
+[2018.06.15-15.49.08:741][  0]LogMoviePlayer: Initializing movie player
+[2018.06.15-15.49.09:536][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.15-15.49.09:624][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.15-15.49.10:326][  0]SourceControl: Source control is disabled
+[2018.06.15-15.49.10:326][  0]SourceControl: Source control is disabled
+[2018.06.15-15.49.10:366][  0]SourceControl: Source control is disabled
+[2018.06.15-15.49.11:207][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.15-15.49.11:651][  0]LogOcInput: OculusInput pre-init called
+[2018.06.15-15.49.11:764][  0]LogUObjectArray: 40124 objects as part of root set at end of initial load.
+[2018.06.15-15.49.11:764][  0]LogUObjectAllocator: 8364200 out of 0 bytes used by permanent object pool.
+[2018.06.15-15.49.11:764][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.15-15.49.11:877][  0]LogEngine: Initializing Engine...
+[2018.06.15-15.49.11:880][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.15-15.49.11:894][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.15-15.49.11:894][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.15-15.49.12:345][  0]LogInit: XAudio2 using 'Speakers (AudioBox USB)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.15-15.49.12:372][  0]LogInit: FAudioDevice initialized.
+[2018.06.15-15.49.12:408][  0]LogInit: Texture streaming: Enabled
+[2018.06.15-15.49.12:741][  0]LogInit: Display: Game Engine Initialized.
+[2018.06.15-15.49.12:741][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.15-15.49.12:741][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.15-15.49.12:741][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.15-15.49.13:034][  0]LogInit: Display: Starting Game.
+[2018.06.15-15.49.13:044][  0]LogNet: Browse: /Game/Norman/Maps/NormanDemo?Name=Player
+[2018.06.15-15.49.13:045][  0]LogLoad: LoadMap: /Game/Norman/Maps/NormanDemo?Name=Player
+[2018.06.15-15.49.13:088][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164e1223d80, Size=40, Default__NormanDemo_C Function /Game/Norman/Maps/NormanDemo.NormanDemo_C:ExecuteUbergraph_NormanDemo
+[2018.06.15-15.49.13:249][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Blueprints/World/Collectable.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:255][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164e0dc3380, Size=288, Default__Collectable_C Function /Game/Norman/Blueprints/World/Collectable.Collectable_C:ExecuteUbergraph_Collectable
+[2018.06.15-15.49.13:256][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Blueprints/Interfaces/INormanAnimations.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:258][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Blueprints/Enums/NormanStates.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:268][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Blueprints/Libraries/NormanAnim_Lib.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:275][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Materials/World/Grass_M_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:294][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Blueprints/World/PushPull.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:304][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164e12a2480, Size=608, Default__PushPull_C Function /Game/Norman/Blueprints/World/PushPull.PushPull_C:ExecuteUbergraph_PushPull
+[2018.06.15-15.49.13:305][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Materials/World/Hidden_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:333][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Blueprints/World/WaterTrudge.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:337][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164e0dc0e00, Size=280, Default__WaterTrudge_C Function /Game/Norman/Blueprints/World/WaterTrudge.WaterTrudge_C:ExecuteUbergraph_WaterTrudge
+[2018.06.15-15.49.13:353][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Materials/World/Water_M_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:368][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Meshes/World/Grass_01_SM_LOD2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:369][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Meshes/World/plane.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:371][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Meshes/World/Spike.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:411][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164e0dc3380, Size=288
+[2018.06.15-15.49.13:411][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164dfe79300, Size=288, Default__Collectable_C Function /Engine/Transient.REINST_Collectable_C_4:ExecuteUbergraph_Collectable
+[2018.06.15-15.49.13:413][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164e12a2480, Size=608
+[2018.06.15-15.49.13:413][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164e0ca2480, Size=608, Default__PushPull_C Function /Engine/Transient.REINST_PushPull_C_6:ExecuteUbergraph_PushPull
+[2018.06.15-15.49.13:414][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164e0dc0e00, Size=280
+[2018.06.15-15.49.13:414][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164dfe78f40, Size=280, Default__WaterTrudge_C Function /Engine/Transient.REINST_WaterTrudge_C_7:ExecuteUbergraph_WaterTrudge
+[2018.06.15-15.49.13:493][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164d0fcf880, Size=304, Default__Collectable_C Function /Game/Norman/Blueprints/World/Collectable.Collectable_C:ExecuteUbergraph_Collectable
+[2018.06.15-15.49.13:497][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164d0f3b380, Size=624, Default__PushPull_C Function /Game/Norman/Blueprints/World/PushPull.PushPull_C:ExecuteUbergraph_PushPull
+[2018.06.15-15.49.13:499][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164d0fcf600, Size=296, Default__WaterTrudge_C Function /Game/Norman/Blueprints/World/WaterTrudge.WaterTrudge_C:ExecuteUbergraph_WaterTrudge
+[2018.06.15-15.49.13:511][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164e1223d80, Size=40
+[2018.06.15-15.49.13:511][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164e1223d80, Size=40, Default__NormanDemo_C Function /Engine/Transient.REINST_NormanDemo_C_15:ExecuteUbergraph_NormanDemo
+[2018.06.15-15.49.13:513][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164e1222318, Size=40, Default__NormanDemo_C Function /Game/Norman/Maps/NormanDemo.NormanDemo_C:ExecuteUbergraph_NormanDemo
+[2018.06.15-15.49.13:554][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Materials/World/GrassFoliage_M_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:594][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Materials/World/Water_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:613][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Materials/World/Color_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:657][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Materials/World/GrassFoliage_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:670][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/World/water_nrm.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:673][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/World/water_h.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:686][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/World/grass_mask.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.13:825][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.069207ms] /Game/EggboyRaw/Sitting.Sitting
+[2018.06.15-15.49.13:955][  0]LogClass: Warning: Enum '/Game/Norman/Blueprints/Enums/NormanStates.NormanStates' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.06.15-15.49.14:010][  0]LogAIModule: Creating AISystem for world NormanDemo
+[2018.06.15-15.49.14:037][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164d1822800, Size=768, Default__NormanCharacter_C Function /Game/Norman/Blueprints/Character/NormanCharacter.NormanCharacter_C:ExecuteUbergraph_NormanCharacter
+[2018.06.15-15.49.14:040][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Norman_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:155][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164d142d0c0, Size=224, Default__Norman_AnimBP_C Function /Game/Norman/Animations/Character/Norman_AnimBP.Norman_AnimBP_C:ExecuteUbergraph_Norman_AnimBP
+[2018.06.15-15.49.14:183][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164dff05b00, Size=240, Default__Norman_AnimBP1_C Function /Game/Norman_AnimBP1.Norman_AnimBP1_C:ExecuteUbergraph_Norman_AnimBP1
+[2018.06.15-15.49.14:185][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Meshes/Accessories/norman_antenna_v1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:187][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Materials/Character/Norman_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:193][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Meshes/Accessories/norman_battery_v1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:195][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Weapons/Slingshot/Slingshot_AnimBlueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:199][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Meshes/Weapons/Slingshot/slingshot_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:202][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164d1706a70, Size=40, Default__Slingshot_AnimBlueprint_C Function /Game/Norman/Animations/Weapons/Slingshot/Slingshot_AnimBlueprint.Slingshot_AnimBlueprint_C:ExecuteUbergraph_Slingshot_AnimBlueprint
+[2018.06.15-15.49.14:204][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Meshes/Accessories/norman_zipper_v1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:207][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Weapons/Slingshot/slingshot_idle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:209][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Weapons/Slingshot/SlingshotShoot_Blendspace.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:306][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Weapons/Slingshot/slingshot_stretch.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:308][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Weapons/Slingshot/slingshot_shoot.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:310][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Meshes/Weapons/Slingshot/slingshot.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:312][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Materials/Weapons/Slingshot/Slingshot_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:454][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_carry.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:456][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_collect.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:458][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_dance.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:460][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_death.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:462][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_pickup.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:464][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_place.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:466][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_press.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:468][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_pull.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:470][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_push.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:471][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_put_away.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:473][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_spawn.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:475][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_talk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:477][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:479][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:481][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:483][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/Aim/NormanAim_BlendSpace.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:485][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/NormanIdleRun_Blendspace.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:486][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/NormanTrudge_Blendspace.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:488][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/Shoot/NormanShoot_Blendspace.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:543][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_idle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:545][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_walk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:546][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_run.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:548][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/norman_trudge.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:556][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/Aim/norman_aim_down_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:558][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/Aim/norman_aim_left_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:560][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/Aim/norman_aim_leftdown_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:562][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/Aim/norman_aim_leftup_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:564][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/Aim/norman_aim_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:565][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/Aim/norman_aim_right_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:567][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/Aim/norman_aim_rightdown_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:568][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/Aim/norman_aim_up_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:570][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/Aim/norman_aim_rightup_pose.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:572][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/Shoot/norman_shooting_base.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:574][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/Shoot/norman_shooting_shoot.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:576][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Animations/Character/Blends/Shoot/norman_shooting_reload.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:581][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/Character/Faces/norman_blink_face.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:582][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/Character/Faces/norman_default_face.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:584][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/Character/Faces/norman_squint_face.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.14:668][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164d142d0c0, Size=224
+[2018.06.15-15.49.14:668][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164edfc8b80, Size=224, Default__Norman_AnimBP_C Function /Engine/Transient.REINST_Norman_AnimBP_C_0:ExecuteUbergraph_Norman_AnimBP
+[2018.06.15-15.49.14:674][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164dff05b00, Size=240
+[2018.06.15-15.49.14:674][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164e0cb1b00, Size=240, Default__Norman_AnimBP1_C Function /Engine/Transient.REINST_Norman_AnimBP1_C_1:ExecuteUbergraph_Norman_AnimBP1
+[2018.06.15-15.49.14:675][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164d1706a70, Size=40
+[2018.06.15-15.49.14:675][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164ee476728, Size=40, Default__Slingshot_AnimBlueprint_C Function /Engine/Transient.REINST_Slingshot_AnimBlueprint_C_2:ExecuteUbergraph_Slingshot_AnimBlueprint
+[2018.06.15-15.49.14:678][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164d1822800, Size=768
+[2018.06.15-15.49.14:678][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164ee0b9000, Size=768, Default__NormanCharacter_C Function /Engine/Transient.REINST_NormanCharacter_C_17:ExecuteUbergraph_NormanCharacter
+[2018.06.15-15.49.14:947][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164ee83b700, Size=232, Default__Norman_AnimBP_C Function /Game/Norman/Animations/Character/Norman_AnimBP.Norman_AnimBP_C:ExecuteUbergraph_Norman_AnimBP
+[2018.06.15-15.49.14:961][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164ee7d9400, Size=232, Default__Norman_AnimBP1_C Function /Game/Norman_AnimBP1.Norman_AnimBP1_C:ExecuteUbergraph_Norman_AnimBP1
+[2018.06.15-15.49.14:966][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164eda9b650, Size=40, Default__Slingshot_AnimBlueprint_C Function /Game/Norman/Animations/Weapons/Slingshot/Slingshot_AnimBlueprint.Slingshot_AnimBlueprint_C:ExecuteUbergraph_Slingshot_AnimBlueprint
+[2018.06.15-15.49.14:976][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000164ee79e500, Size=760, Default__NormanCharacter_C Function /Game/Norman/Blueprints/Character/NormanCharacter.NormanCharacter_C:ExecuteUbergraph_NormanCharacter
+[2018.06.15-15.49.14:993][  0]LogBlueprint: Warning: [Compiler Norman_AnimBP1] Node  Blendspace Player 'NormanAim_BlendSpace1'  uses potentially thread-unsafe call Get Aim Rot. Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.06.15-15.49.14:993][  0]LogBlueprint: Warning: [Compiler Norman_AnimBP1] Node  Blendspace Player 'NormanShoot_Blendspace1'  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.06.15-15.49.14:995][  0]LogBlueprint: Warning: [Compiler Norman_AnimBP] Node  Blendspace Player 'NormanAim_BlendSpace'  uses potentially thread-unsafe call Get Aim Rot. Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.06.15-15.49.14:995][  0]LogBlueprint: Warning: [Compiler Norman_AnimBP] Node  Blendspace Player 'NormanShoot_Blendspace'  uses potentially thread-unsafe call  Try Get Pawn Owner . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2018.06.15-15.49.15:000][  0]LogBlueprint: Warning: [Compiler Norman_AnimBP] [0023.56] Compile of Norman_AnimBP successful, but with 2 Warning(s) [in 394 ms] (/Game/Norman/Animations/Character/Norman_AnimBP.Norman_AnimBP)
+[2018.06.15-15.49.15:000][  0]LogBlueprint: Warning: [Compiler Norman_AnimBP1] [0023.56] Compile of Norman_AnimBP1 successful, but with 2 Warning(s) [in 395 ms] (/Game/Norman_AnimBP1.Norman_AnimBP1)
+[2018.06.15-15.49.15:012][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Meshes/Accessories/norman_zipper_v1_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.15:014][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Meshes/Accessories/norman_battery_v1_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.15:019][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/Character/rough.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.15:021][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/Character/albedo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.15:023][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/Character/emissive.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.15:025][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/Character/metal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.15:027][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/Character/normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.15:029][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/Character/NoiseFace.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.15:031][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Meshes/Accessories/norman_antenna_v1_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.15:037][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/Weapons/Slingshot/slingshot_metallic.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.15:043][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/Weapons/Slingshot/slingshot_normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.15:045][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/Weapons/Slingshot/slingshot_roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.15:047][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Textures/Weapons/Slingshot/slingshot_albedo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.15:048][  0]LogLinker: Warning: Asset 'E:/_Unreal/EggBoyDevelopment/Content/Norman/Meshes/Weapons/Slingshot/slingshot_PhysicsAsset.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.06.15-15.49.15:082][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.628364ms] /Game/Norman/Meshes/Accessories/norman_zipper_v1.norman_zipper_v1
+[2018.06.15-15.49.15:085][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.539701ms] /Game/Norman/Meshes/Accessories/norman_battery_v1.norman_battery_v1
+[2018.06.15-15.49.15:097][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.489963ms] /Game/Norman/Meshes/Accessories/norman_antenna_v1.norman_antenna_v1
+[2018.06.15-15.49.15:129][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.724750ms] /Game/Norman/Meshes/Weapons/Slingshot/slingshot.slingshot
+[2018.06.15-15.49.15:183][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.15-15.49.15:203][  0]LogWorld: Bringing World /Game/Norman/Maps/NormanDemo.NormanDemo up for play (max tick rate 0) at 2018.06.15-08.49.15
+[2018.06.15-15.49.15:208][  0]LogWorld: Bringing up level for play took: 0.023060
+[2018.06.15-15.49.15:223][  0]LogLoad: Took 2.178930 seconds to LoadMap(/Game/Norman/Maps/NormanDemo)
+[2018.06.15-15.49.15:316][  0]LogLoad: (Engine Initialization) Total time: 23.88 seconds
+[2018.06.15-15.49.15:316][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.15-15.49.15:473][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2018.06.15-15.49.15:587][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.15-15.50.16:716][766]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164e1223d80, Size=40
+[2018.06.15-15.50.16:716][766]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164dfe79300, Size=288
+[2018.06.15-15.50.16:716][766]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164e0ca2480, Size=608
+[2018.06.15-15.50.16:716][766]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164dfe78f40, Size=280
+[2018.06.15-15.50.16:717][766]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164ee0b9000, Size=768
+[2018.06.15-15.50.16:717][766]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164edfc8b80, Size=224
+[2018.06.15-15.50.16:717][766]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164e0cb1b00, Size=240
+[2018.06.15-15.50.16:717][766]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164ee476728, Size=40
+[2018.06.15-16.24.09:749][700]LogSlate: Window 'Eggboy (64-bit, PCD3D_SM5) ' being destroyed
+[2018.06.15-16.24.09:750][700]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.15-16.24.09:754][700]LogEngine: All Windows Closed
+[2018.06.15-16.24.09:754][700]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.06.15-16.24.10:684][701]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.06.15-16.24.10:684][701]LogExit: Preparing to exit.
+[2018.06.15-16.24.10:684][701]LogMoviePlayer: Shutting down movie player
+[2018.06.15-16.24.11:286][701]LogExit: Game engine shut down
+[2018.06.15-16.24.11:297][701]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164d0fcf880, Size=304
+[2018.06.15-16.24.11:297][701]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164d0f3b380, Size=624
+[2018.06.15-16.24.11:297][701]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164d0fcf600, Size=296
+[2018.06.15-16.24.11:297][701]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164e1222318, Size=40
+[2018.06.15-16.24.11:299][701]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164ee83b700, Size=232
+[2018.06.15-16.24.11:299][701]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164ee7d9400, Size=232
+[2018.06.15-16.24.11:299][701]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164eda9b650, Size=40
+[2018.06.15-16.24.11:299][701]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000164ee79e500, Size=760
+[2018.06.15-16.24.11:433][701]LogExit: Object subsystem successfully closed.
+[2018.06.15-16.24.11:453][701]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.06.15-16.24.11:460][701]LogD3D11RHI: Shutdown
+[2018.06.15-16.24.11:460][701]LogD3D11RHI: CleanupD3DDevice
+[2018.06.15-16.24.11:464][701]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (332)
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module SequenceRecorder (330)
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module AutomationController (328)
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module AutomationWorker (326)
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module AIModule (324)
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module GameplayDebugger (323)
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module AITestSuite (321)
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (318)
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (316)
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (314)
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (312)
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module CharacterAI (310)
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module SessionServices (308)
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (306)
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (304)
+[2018.06.15-16.24.11:494][701]LogModuleManager: Shutting down and abandoning module MovieScene (302)
+[2018.06.15-16.24.11:495][701]LogModuleManager: Shutting down and abandoning module GeometryCache (300)
+[2018.06.15-16.24.11:495][701]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (299)
+[2018.06.15-16.24.11:495][701]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (296)
+[2018.06.15-16.24.11:495][701]LogModuleManager: Shutting down and abandoning module PortalServices (294)
+[2018.06.15-16.24.11:495][701]LogModuleManager: Shutting down and abandoning module PortalRpc (292)
+[2018.06.15-16.24.11:495][701]LogModuleManager: Shutting down and abandoning module MessagingRpc (290)
+[2018.06.15-16.24.11:495][701]LogModuleManager: Shutting down and abandoning module ProfilerService (288)
+[2018.06.15-16.24.11:727][701]LogModuleManager: Shutting down and abandoning module TaskGraph (286)
+[2018.06.15-16.24.11:727][701]LogModuleManager: Shutting down and abandoning module SteamVRController (284)
+[2018.06.15-16.24.11:727][701]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (282)
+[2018.06.15-16.24.11:728][701]LogModuleManager: Shutting down and abandoning module OculusInput (280)
+[2018.06.15-16.24.11:728][701]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (278)
+[2018.06.15-16.24.11:728][701]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (276)
+[2018.06.15-16.24.11:728][701]LogModuleManager: Shutting down and abandoning module CableComponent (274)
+[2018.06.15-16.24.11:728][701]LogModuleManager: Shutting down and abandoning module AudioCapture (272)
+[2018.06.15-16.24.11:728][701]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (270)
+[2018.06.15-16.24.11:728][701]LogModuleManager: Shutting down and abandoning module AndroidPermission (268)
+[2018.06.15-16.24.11:728][701]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (264)
+[2018.06.15-16.24.11:728][701]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (262)
+[2018.06.15-16.24.11:728][701]LogModuleManager: Shutting down and abandoning module MediaCompositing (260)
+[2018.06.15-16.24.11:728][701]LogModuleManager: Shutting down and abandoning module LinearTimecode (258)
+[2018.06.15-16.24.11:728][701]LogModuleManager: Shutting down and abandoning module ImgMedia (256)
+[2018.06.15-16.24.11:733][701]LogModuleManager: Shutting down and abandoning module HTML5Networking (254)
+[2018.06.15-16.24.11:733][701]LogModuleManager: Shutting down and abandoning module DatasmithContent (252)
+[2018.06.15-16.24.11:733][701]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (250)
+[2018.06.15-16.24.11:733][701]LogModuleManager: Shutting down and abandoning module CryptoKeys (248)
+[2018.06.15-16.24.11:733][701]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (246)
+[2018.06.15-16.24.11:733][701]LogModuleManager: Shutting down and abandoning module HotReload (245)
+[2018.06.15-16.24.11:733][701]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (244)
+[2018.06.15-16.24.11:733][701]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (240)
+[2018.06.15-16.24.11:733][701]LogModuleManager: Shutting down and abandoning module UObjectPlugin (238)
+[2018.06.15-16.24.11:733][701]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (236)
+[2018.06.15-16.24.11:734][701]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (234)
+[2018.06.15-16.24.11:734][701]LogModuleManager: Shutting down and abandoning module SourceControl (233)
+[2018.06.15-16.24.11:734][701]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (230)
+[2018.06.15-16.24.11:734][701]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (228)
+[2018.06.15-16.24.11:734][701]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
+[2018.06.15-16.24.11:734][701]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
+[2018.06.15-16.24.11:734][701]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (222)
+[2018.06.15-16.24.11:734][701]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (220)
+[2018.06.15-16.24.11:734][701]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (218)
+[2018.06.15-16.24.11:734][701]LogModuleManager: Shutting down and abandoning module ActorSequence (216)
+[2018.06.15-16.24.11:734][701]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2018.06.15-16.24.11:835][701]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2018.06.15-16.24.11:936][701]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2018.06.15-16.24.11:936][701]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2018.06.15-16.24.11:936][701]LogModuleManager: Shutting down and abandoning module DataValidation (206)
+[2018.06.15-16.24.11:936][701]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (204)
+[2018.06.15-16.24.11:936][701]LogModuleManager: Shutting down and abandoning module TreeMap (203)
+[2018.06.15-16.24.11:936][701]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (200)
+[2018.06.15-16.24.11:936][701]LogModuleManager: Shutting down and abandoning module LiveLink (198)
+[2018.06.15-16.24.12:904][701]LogModuleManager: Shutting down and abandoning module Paper2D (196)
+[2018.06.15-16.24.12:904][701]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (194)
+[2018.06.15-16.24.12:904][701]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (192)
+[2018.06.15-16.24.12:905][701]LogModuleManager: Shutting down and abandoning module WmfMedia (190)
+[2018.06.15-16.24.12:906][701]LogModuleManager: Shutting down and abandoning module Media (189)
+[2018.06.15-16.24.12:912][701]LogModuleManager: Shutting down and abandoning module PacketHandler (186)
+[2018.06.15-16.24.12:912][701]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (184)
+[2018.06.15-16.24.12:912][701]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (182)
+[2018.06.15-16.24.12:912][701]LogModuleManager: Shutting down and abandoning module MediaAssets (180)
+[2018.06.15-16.24.12:913][701]LogModuleManager: Shutting down and abandoning module Overlay (178)
+[2018.06.15-16.24.12:913][701]LogModuleManager: Shutting down and abandoning module OverlayEditor (177)
+[2018.06.15-16.24.12:913][701]LogModuleManager: Shutting down and abandoning module VREditor (174)
+[2018.06.15-16.24.12:913][701]LogModuleManager: Shutting down and abandoning module StringTableEditor (172)
+[2018.06.15-16.24.12:913][701]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (170)
+[2018.06.15-16.24.12:913][701]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (168)
+[2018.06.15-16.24.12:913][701]LogModuleManager: Shutting down and abandoning module FunctionalTesting (166)
+[2018.06.15-16.24.12:913][701]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (164)
+[2018.06.15-16.24.12:913][701]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (163)
+[2018.06.15-16.24.12:913][701]LogModuleManager: Shutting down and abandoning module UMG (160)
+[2018.06.15-16.24.12:913][701]LogModuleManager: Shutting down and abandoning module UMGEditor (159)
+[2018.06.15-16.24.12:913][701]LogModuleManager: Shutting down and abandoning module Sequencer (158)
+[2018.06.15-16.24.12:913][701]LogModuleManager: Shutting down and abandoning module MessageLog (155)
+[2018.06.15-16.24.12:913][701]LogModuleManager: Shutting down and abandoning module SlateReflector (150)
+[2018.06.15-16.24.12:914][701]LogModuleManager: Shutting down and abandoning module Slate (148)
+[2018.06.15-16.24.12:914][701]LogModuleManager: Shutting down and abandoning module EditorStyle (146)
+[2018.06.15-16.24.12:916][701]LogModuleManager: Shutting down and abandoning module MRMesh (144)
+[2018.06.15-16.24.12:916][701]LogModuleManager: Shutting down and abandoning module Messaging (142)
+[2018.06.15-16.24.12:916][701]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (140)
+[2018.06.15-16.24.12:916][701]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (138)
+[2018.06.15-16.24.12:916][701]LogModuleManager: Shutting down and abandoning module XAudio2 (136)
+[2018.06.15-16.24.12:916][701]LogModuleManager: Shutting down and abandoning module Networking (134)
+[2018.06.15-16.24.12:916][701]LogModuleManager: Shutting down and abandoning module Core (132)
+[2018.06.15-16.24.12:917][701]LogModuleManager: Shutting down and abandoning module LevelSequence (130)
+[2018.06.15-16.24.12:917][701]LogModuleManager: Shutting down and abandoning module KismetCompiler (128)
+[2018.06.15-16.24.12:917][701]LogModuleManager: Shutting down and abandoning module MeshUtilities (126)
+[2018.06.15-16.24.12:917][701]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (125)
+[2018.06.15-16.24.12:917][701]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (124)
+[2018.06.15-16.24.12:917][701]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (123)
+[2018.06.15-16.24.12:917][701]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (121)
+[2018.06.15-16.24.12:917][701]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (119)
+[2018.06.15-16.24.12:917][701]LogModuleManager: Shutting down and abandoning module MaterialBaking (115)
+[2018.06.15-16.24.12:917][701]LogModuleManager: Shutting down and abandoning module DerivedDataCache (110)
+[2018.06.15-16.24.12:930][701]LogDerivedDataCache: Shutdown
+[2018.06.15-16.24.12:930][701]LogModuleManager: Shutting down and abandoning module XGEController (108)
+[2018.06.15-16.24.12:930][701]LogModuleManager: Shutting down and abandoning module TargetPlatform (106)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (105)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (103)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (101)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (99)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (97)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (95)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (93)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (91)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (89)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (87)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module ImageWrapper (86)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (83)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (81)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (79)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (77)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (75)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (73)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (71)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (69)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.06.15-16.24.12:931][701]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.06.15-16.24.12:932][701]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.06.15-16.24.12:932][701]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.06.15-16.24.12:932][701]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.06.15-16.24.12:932][701]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.06.15-16.24.12:932][701]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.06.15-16.24.12:932][701]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.06.15-16.24.12:932][701]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.06.15-16.24.12:932][701]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.06.15-16.24.12:932][701]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.06.15-16.24.12:932][701]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.06.15-16.24.12:961][701]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.06.15-16.24.12:963][701]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.06.15-16.24.12:963][701]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.06.15-16.24.12:963][701]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.06.15-16.24.12:963][701]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.06.15-16.24.12:964][701]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.06.15-16.24.12:964][701]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.06.15-16.24.12:964][701]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.06.15-16.24.12:964][701]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.06.15-16.24.12:964][701]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.06.15-16.24.12:964][701]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.06.15-16.24.12:964][701]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.06.15-16.24.12:964][701]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.06.15-16.24.12:964][701]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.06.15-16.24.12:964][701]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.06.15-16.24.12:964][701]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.06.15-16.24.12:964][701]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.06.15-16.24.12:964][701]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.06.15-16.24.12:964][701]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.06.15-16.24.12:971][701]LogExit: Exiting.
+[2018.06.15-16.24.12:975][701]Log file closed, 06/15/18 09:24:12
